@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "mealplanner"
   gem.require_paths = ["lib"]
   gem.version       = Mealplanner::VERSION
+  gem.add_development_dependency "rspec", "~> 2.6"
 end
